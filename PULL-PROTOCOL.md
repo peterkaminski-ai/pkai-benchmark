@@ -24,6 +24,12 @@ Pull is half of it. The other half runs back up:
 
 The third is the most valuable inbound signal a release gets, and a push-and-replace design destroys exactly it — it overwrites the divergence before anyone has looked at it. The `pull-from-benchmark` skill drafts the report; `CONTRIBUTING.md` says where it goes. If the divergence is good, the benchmark takes it at the next release, and the kit takes it from the benchmark at the next shaping. Lessons arrive in the benchmark first; the kit never leads it.
 
+## The cadence
+
+Pull is built for small releases, often. A big release once a season asks a house to weigh fifty things at once; a small one — a skill, a chapter, a fix — asks it to weigh one, and the answer is usually quick. So the beta bumps its minor version as improvements arrive, the first within a week or two of 3.0, and the aim across the network is modest and real: **at least one small improvement, from some house, most weeks**, offered back, taken by whoever judges it good. A house that pulls monthly loses nothing; the `CHANGES` entries are there in order when it does.
+
+This is not a standing obligation on anyone. It's what the mechanism makes cheap enough to happen.
+
 ## What a house does, concretely
 
 The `pull-from-benchmark` skill is the procedure. In outline: read the new `LINEAGE.md` and `CHANGES.md` down to the version the house sits on; make one row per change; propose *take / adapt / decline / already better* with a reason each; the person decides; apply only what was decided, by copying, with charter changes drafted for the person to install by hand; update `LINEAGE.md`'s `sits_on`; log it; draft the report. A declined item is decided — it's noted in `LINEAGE.md` so future pulls skip it unless the person reopens it.

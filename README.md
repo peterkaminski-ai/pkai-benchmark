@@ -4,6 +4,8 @@ The PKAI benchmark: **the best current understanding of what a personal AI agent
 
 This is the fuller statement. The [PKAI starter kit](https://github.com/peterkaminski-ai/pkai-starter-kit) is this benchmark *shaped* — modified in the ways that make it a better place to start — and its `SHAPING.md` says exactly what was left out and what was added. The two are released together at one version. **V3** is the first version with both.
 
+**3.0 is a beta**, made fast and built to be improved often: expect a minor release within a week or two, and small ones after that as improvements arrive from houses. That is the design, not a caveat. Every unit here is standalone — a skill is a folder, a chapter is a file, a charter section is a block — so an improvement is one unit, offered back and taken by pull, never by reinstall. The aim is a network of houses, people and agents, each learning from the others a little every week.
+
 ## How to use it
 
 **You don't install the benchmark.** A house reads it. Each house is sovereign, so it doesn't make sense to hand a house "the best version"; it makes sense for the house to look at the best current understanding and take in what it and its person want, how they want it. Then it says what it thought.

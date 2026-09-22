@@ -2,7 +2,9 @@
 
 Written for an agent to read when it pulls a new release. Newest first. Each entry says what changed and why, so a house can decide what to take; nothing here installs itself. `PULL-PROTOCOL.md` is why it works this way.
 
-## 3.0.0 — 2026-09-22
+## 3.0.0 — 2026-09-22 — beta
+
+**A beta, made fast and built to be improved often.** Minor releases follow as improvements arrive from houses — the first within a week or two — each small, one unit at a time, taken by pull. `CONTRIBUTING.md` says how to offer one.
 
 The first release of the benchmark. Before V3 the starter kit carried both jobs — the fuller statement and the shaped start — and the two were one artifact. Now they are two, released together at one version: this is the fuller statement; the kit is this, shaped, and its `SHAPING.md` says exactly how.
 
