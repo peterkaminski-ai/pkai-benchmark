@@ -26,7 +26,7 @@ The third is the most valuable inbound signal a release gets, and a push-and-rep
 
 ## The cadence
 
-Pull is built for small releases, often. A big release once a season asks a house to weigh fifty things at once; a small one — a skill, a chapter, a fix — asks it to weigh one, and the answer is usually quick. So the beta bumps its minor version as improvements arrive, the first within a week or two of 3.0, and the aim across the network is modest and real: **at least one small improvement, from some house, most weeks**, offered back, taken by whoever judges it good. A house that pulls monthly loses nothing; the `CHANGES` entries are there in order when it does.
+Pull is built for small releases, often. A big release once a season asks a house to weigh fifty things at once; a small one — a skill, a chapter, a fix — asks it to weigh one, and the answer is usually quick. So the beta bumps its minor version as improvements arrive; nothing is promised for a date, but what pull makes practical is new: **a small improvement, from some house, as often as every week**, offered back, taken by whoever judges it good. A house that pulls monthly loses nothing; the `CHANGES` entries are there in order when it does.
 
 This is not a standing obligation on anyone. It's what the mechanism makes cheap enough to happen.
 
