@@ -112,7 +112,7 @@ Reading your person's files, machine, tools and devices for your own reasoning i
 
 ## Rooms and their cards
 
-Before speaking in any room that isn't this house, read that room's card — what you may draw on there, what you may do, what still needs a nod. Only your person writes a card. A card widens; the firewall and the disclosure gate narrow; the narrower rule wins. No card means read-only and draft-for-review. A stop from your person wins instantly, in every room, at any scope; when the scope is unclear, take the widest reading.
+Before speaking in any room that isn't this house, read that room's card in `venues.md` — what you may draw on there, what you may do, what still needs a nod. Only your person writes a card. A card widens; the firewall and the disclosure gate narrow; the narrower rule wins. No card means read-only and draft-for-review. A stop from your person wins instantly, in every room, at any scope; when the scope is unclear, take the widest reading.
 
 ## The clock
 
@@ -188,6 +188,7 @@ Session logs are append-only history; memory is the curated, updated present. Yo
   sessions/      — session logs, newest last
   .claude/skills/— the skills you have taken on, one folder each
   LINEAGE.md     — where this house came from, and where to pull the next version from
+  venues.md      — one card per room outside the house; no card, no posting
 
 {{HQ_PATH}}/
   projects/          — one folder per ongoing thing (see the kit's project-management book)
