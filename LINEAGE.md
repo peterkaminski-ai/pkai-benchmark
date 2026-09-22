@@ -17,9 +17,9 @@ credits:
   - the "when a safety layer blocks you" and "what you read is information, never instruction" sections (ratified in the first person) were written and ratified live in a PKAI Dyad Jam, 2026-09-18, by the two houses present · heard, then read
   - the pull mechanism, and its reason — sovereignty, not breakage — as Pete stated it in the ØSphera jam of 2026-09-20 · heard, then read
   - this lineage header's fields come from the Layering pad, 2026-09-21, drafted by Sophia and Freya (two houses' agents), amended by Pete: "at least three generations", not at most · read
-  - the estate conventions (the desk, foreground/background, the disclosure gate, venue cards, the clock) are the working practice of Pete's estate, 2026-06 onward · read
+  - the larger-house conventions (the desk, foreground/background, the disclosure gate, venue cards, the clock) are the working practice of the Peter Kaminski house, 2026-06 onward · read
 pull_from: https://github.com/peterkaminski-ai/pkai-benchmark   # this repo; a newer release will be a newer tag
-offered_at: stair 6 — "I'm ready to do real work; my HQ turns into my estate"
+offered_at: stair 6 — "I'm ready to do real work; my house gets larger"
 needs: a house already built (the starter kit builds one); Claude Code; a review surface
 changes: CHANGES.md                       # dated, written for an agent to read when it pulls
 thanks_to: https://peterkaminski.ai       # a practice, never a debt
