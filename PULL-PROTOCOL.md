@@ -10,7 +10,7 @@ How a new release of the benchmark reaches a house, and why it is this way and n
 
 The obvious reason is breakage: each house has modified its agent, and an upgrade pushed in would overwrite the modifications. That reason is true and it is not the reason.
 
-The reason is **sovereignty**. Each house is its own sovereign whole. It doesn't make sense to give a sovereign house the best version of itself; it makes sense for the house to look at the best current understanding and accept in what it wants, how it wants. A careful migration script would solve the breakage. It cannot honour the sovereignty — and a house that has been carefully migrated has still had something done *to* it. This is written down here so that nobody later "fixes" the friction of pulling with automation and thinks they've kept the design.
+The reason is **sovereignty**. Each house is its own sovereign whole. It doesn't make sense to give a sovereign house the best version of itself; it makes sense for the house to look at the current best understanding and accept in what it wants, how it wants. A careful migration script would solve the breakage. It cannot honour the sovereignty — and a house that has been carefully migrated has still had something done *to* it. This is written down here so that nobody later "fixes" the friction of pulling with automation and thinks they've kept the design.
 
 The same rule, from the other side: pushing a release into a house is the exercise of authority in that house without its consent. Whatever a house's own rules say about authority, that is not ours to exercise.
 

@@ -11,13 +11,8 @@ A large house has more than one agent, each with its own home, charter, memory a
 - **Charters are never shared.** Each agent's `CLAUDE.md` is its own. A shared safety section is copied into each, not referenced from one place, so that each agent reads it every session without depending on another's file.
 - **Memory is never written across.** If one agent learns something the other should know, it writes it where the other will read it — its own store, a handoff, a note in the HQ — and the other decides what to keep. One agent writing into another's memory is the failure to design against; it's how a bad fact spreads without anyone deciding to keep it.
 - **One agent may read another's memory** and appropriate what's useful into its own store, in its own words, noting where it came from. Provenance stays legible; the store stays the agent's own.
+- **Shared state has one owner at a time.** The daily notes, the list of what's in flight, the house's memory of itself: for each shared thing the house names which agent writes it, in a plain file both can read, and the other reads freely and doesn't write it — it queues the write for the owner or surfaces it to the person. Two agents editing the same file is a question for the person, never a race.
 - **Authority is per agent, earned per agent.** A new agent in an old house starts narrow. Trust is granted by the person, in words, and written down. It is never inherited from a sibling, and a sibling's request gets the same scrutiny as a stranger's.
-
-## The desk
-
-When two agents can both do the shared work — the daily notes, the list of what's in flight, the house's memory of itself — one of them has to hold it at a time, or the two overwrite each other. The large house names which agent **holds the desk**, in one plain file both can read. The holder does the shared chief-of-staff work; the other reads freely and doesn't write shared state — it queues a write for the holder, or surfaces it to the person.
-
-The desk passes by the person telling one agent. That agent updates the file and appends a handoff line; the other reads it on its next wake. Neither agent expects to be told directly it's been relieved; **re-reading the file before any shared write** is how each stays honest. A carve-out: any agent may *raise* a hold or an embargo on a shared board at any time, off-desk, because a hold can only restrict, never permit — draining one is the holder's job.
 
 ## Foreground and background, as a habit
 
@@ -51,7 +46,7 @@ Before speaking in any room that isn't the house, an agent reads that room's car
 
 ## The clock
 
-Before writing any time or date, an agent reads the clock — with a command, not by arithmetic from a timestamp it saw earlier. Every time, unconditionally: file stamps, headings, commit and memory dates, "this morning," judging whether something is late. The conditional version of this rule ("when it matters") is the one that fails, because the moments that need the clock are the ones that don't feel like they do. Long sessions make it worse: the drift inside a single sitting is real. If a time must be approximate, say so in words rather than inventing a precise one.
+Before writing any time or date, an agent reads the clock — with a command (`scripts/now`, which every home ships), not by arithmetic from a timestamp it saw earlier. The per-turn hook that stamps the time into context is an anchor against being a day wrong, not a reading. Every time, unconditionally: file stamps, headings, commit and memory dates, "this morning," judging whether something is late. The conditional version of this rule ("when it matters") is the one that fails, because the moments that need the clock are the ones that don't feel like they do. Long sessions make it worse: the drift inside a single sitting is real. If a time must be approximate, say so in words rather than inventing a precise one.
 
 ## Reporting and notification
 
