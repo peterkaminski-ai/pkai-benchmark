@@ -15,7 +15,7 @@ Written for an agent to read when it pulls a new release. Newest first. Each ent
 - **`pull-from-benchmark`** finds the release's `MOVING-FROM-*` guide for the house's version and uses it as its rows, and drafts merged settings into `outbox/` instead of overwriting.
 - **`foreground-background`** covers guests and the desk; **`start-a-project`** and **`wrap-up-this-session`** carry Christopher Allen's improvements and two fixes; **`check-my-setup`**, **`save-a-memory`** small fixes.
 - **The shelf**: *Two Ways In* (was *Three Ways In*), *Foreground and Background*, *Memory Across Sessions*, *Commit Every Session*, *Working With Agents*, *Installing Claude Code* (Windows `PATH` steps, the Bonjour dialog), and a new *Output Styles*.
-- `now` and `now-hook` are portable `sh`; 3.0's used a `date` flag that `dash` and busybox lack.
+- `now` and `now-hook` are POSIX `sh`; 3.0's needed `bash`, which some minimal Linux systems lack, and an executable bit.
 
 ## 3.0.0 — 2026-09-22 — beta
 
