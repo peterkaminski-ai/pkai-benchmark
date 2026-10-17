@@ -1,11 +1,11 @@
 # Lineage — `widen-a-boundary`
 
-This skill travels alone, so it carries its own lineage, credits and licence. If you copy the folder, copy this file with it; if you make your own version, set `name`, `version` and `sits_on` to your own and move this one to the top of `lineage`.
+This skill travels alone, so it carries its own lineage, credits and licence. If you copy the folder, copy this file with it; if you make your own version, set `name`, `version` and `grows_from` to your own and move this one to the top of `lineage`.
 
 ```yaml
 name: widen-a-boundary
-version: 3.0.0
-sits_on: pkai-benchmark 3.0.0            # also shipped in pkai-starter-kit 3.0.0
+version: 3.1.0
+grows_from: pkai-benchmark 3.1.0         # also shipped in pkai-starter-kit 3.1.0
 lineage:
   - pkai-starter-kit v3.0.0 · 2026-09-22 · Peter Kaminski, with Saga (his agent) · read
   - pkai-starter-kit v2.0.0 · 2026-08-24 · Peter Kaminski, with Saga · read
@@ -17,6 +17,6 @@ credits:
 pull_from: https://github.com/peterkaminski-ai/pkai-benchmark   # skills/widen-a-boundary/
 offered_at: stair 5 — the first house
 needs: Claude Code with skills enabled; installed at <agent home>/.claude/skills/widen-a-boundary/
-changes: 3.0.0 — 2026-09-22 — first release
+changes: 3.1.0 — 2026-10-17 — in every house; 3.0.0 — 2026-09-22 — first release
 thanks_to: https://peterkaminski.ai       # a practice, never a debt
 ```

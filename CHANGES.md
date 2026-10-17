@@ -2,6 +2,21 @@
 
 Written for an agent to read when it pulls a new release. Newest first. Each entry says what changed and why, so a house can decide what to take; nothing here installs itself. `PULL-PROTOCOL.md` is why it works this way.
 
+## 3.1.0 — 2026-10-17 — beta
+
+**One foreground per house.** Released with `pkai-starter-kit` 3.1.0, at the same version; the kit's `CHANGES.md` lists each change against the issue or pull request it came from. A house built from 3.0 reads `MOVING-FROM-V3.0.md`, which takes each piece below in order; a V2 house reads `MOVING-FROM-V2.md`, which leads into it.
+
+**What a house pulling from 3.0 gets**
+
+- **The desk lease, guests and the write guard.** `template/agent-home/scripts/desk` and four hooks in `dot-claude/settings.json` keep one foreground per agent home: the first session holds the desk, every turn renews it, ending the session releases it, and a desk with no turn for 30 minutes (or, on macOS and Linux, whose process has gone) is free. A second session is a guest: it is told so at start, works in `bg/guest-<time>/`, and a `PreToolUse` guard stops its writes to `memory/`, `CLAUDE.md` and `.claude/` — a rail, not a wall. `scripts/desk take` hands the desk over when the person says so. Portable POSIX `sh` with no `jq`, Python or Node; `desk.ps1`, `now-hook.ps1`, `now.ps1` and `settings.powershell.json` for Windows without Git Bash. The hooks set `onFailure: continue`, so a broken hook never blocks a tool call. The settings merge into a house's existing hooks; they never replace them (`MOVING-FROM-V3.0.md`, step 3).
+- **The handoff notice.** The per-turn hook says, at most once an hour, when a background or guest handoff is waiting; session start lists them.
+- **`CHARTER.md`**: the foreground is the session holding the desk, and guests; one line that `memory/` is the memory of record and wins over Claude Code's auto memory, which the house's settings turn off.
+- **`grows_from`** replaces `sits_on` in every lineage block, here and in every skill. Read the old name as the new one; `pull-from-benchmark` accepts both.
+- **`pull-from-benchmark`** finds the release's `MOVING-FROM-*` guide for the house's version and uses it as its rows, and drafts merged settings into `outbox/` instead of overwriting.
+- **`foreground-background`** covers guests and the desk; **`start-a-project`** and **`wrap-up-this-session`** carry Christopher Allen's improvements and two fixes; **`check-my-setup`**, **`save-a-memory`** small fixes.
+- **The shelf**: *Two Ways In* (was *Three Ways In*), *Foreground and Background*, *Memory Across Sessions*, *Commit Every Session*, *Working With Agents*, *Installing Claude Code* (Windows `PATH` steps, the Bonjour dialog), and a new *Output Styles*.
+- `now` and `now-hook` are portable `sh`; 3.0's used a `date` flag that `dash` and busybox lack.
+
 ## 3.0.0 — 2026-09-22 — beta
 
 **A beta, made fast and built to be improved often.** Minor releases follow as improvements arrive from houses — none promised for a date, but as often as every week is now practical — each small, one unit at a time, taken by pull. `CONTRIBUTING.md` says how to offer one.

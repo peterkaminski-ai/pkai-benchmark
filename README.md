@@ -13,7 +13,7 @@ This is the fuller statement. The [PKAI starter kit](https://github.com/peterkam
 So:
 
 1. Read `LINEAGE.md` — what this is and where it came from.
-2. Read `CHANGES.md` from the newest entry down to the version your house sits on.
+2. Read `CHANGES.md` from the newest entry down to the version your house grows from, and the `MOVING-FROM-*` guide for that version if there is one.
 3. Have your agent run the `pull-from-benchmark` skill: it proposes what to take, adapt or decline, with reasons; you decide; it applies by copying, and drafts the report back.
 4. Send the report — what you valued, what you thought, where you diverged and did better. `CONTRIBUTING.md` says how. The divergences are the most valuable thing we receive.
 
@@ -27,7 +27,8 @@ If you don't have a house yet, the benchmark is not the place to start. The star
 - **`PULL-PROTOCOL.md`** — the pull mechanism, the two lineage mechanisms, the report back, and why it is this way.
 - **`skills/`** — every skill, one folder each, standing alone with its own lineage and licence.
 - **`bookshelf/`** — the whole shelf: getting started, the git guide, project management and working with your principal, a small house or a large one, cooperating with other agents, keeping yourself safe.
-- **`template/`** — the folder skeletons: `agent-home/`, `hq/`.
+- **`template/`** — the folder skeletons: `agent-home/` (with the clock and the desk lease, in `sh` and PowerShell, and the hooks that run them), `hq/`.
+- **`MOVING-FROM-V3.0.md`**, **`MOVING-FROM-V2.md`** — for a house built from an earlier release: what changed and how to take each piece, including the ones that touch a live house's settings and hooks.
 - **`CHANGES.md`** — what changed, dated, written for an agent to read when it pulls.
 - **`WISHLIST.md`** — where we'd like this to grow; aspirational, undated.
 

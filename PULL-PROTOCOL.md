@@ -32,7 +32,7 @@ This is not a standing obligation on anyone. It's what the mechanism makes cheap
 
 ## What a house does, concretely
 
-The `pull-from-benchmark` skill is the procedure. In outline: read the new `LINEAGE.md` and `CHANGES.md` down to the version the house sits on; make one row per change; propose *take / adapt / decline / already better* with a reason each; the person decides; apply only what was decided, by copying, with charter changes drafted for the person to install by hand; update `LINEAGE.md`'s `sits_on`; log it; draft the report. A declined item is decided — it's noted in `LINEAGE.md` so future pulls skip it unless the person reopens it.
+The `pull-from-benchmark` skill is the procedure. In outline: read the new `LINEAGE.md` and `CHANGES.md` down to the version the house grows from (and the release's `MOVING-FROM-*` guide for that version, if there is one); make one row per change; propose *take / adapt / decline / already better* with a reason each; the person decides; apply only what was decided, by copying, with charter changes drafted for the person to install by hand; update `LINEAGE.md`'s `grows_from` (called `sits_on` before 3.1); log it; draft the report. A declined item is decided — it's noted in `LINEAGE.md` so future pulls skip it unless the person reopens it.
 
 ## The two lineage mechanisms
 
