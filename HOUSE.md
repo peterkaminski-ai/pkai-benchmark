@@ -16,7 +16,7 @@ A large house has more than one agent, each with its own home, charter, memory a
 
 ## Foreground and background, as a habit
 
-In a house, a background instance is an occasional trick, and the desk lease (the `foreground-background` skill) keeps a second window from becoming a second foreground. In a large house it's how the day runs: one foreground holding the desk; several background instances working jobs, each in its own scratch folder with a task, a status file, a handoff and a done marker; the foreground integrating by copying. The mechanism is the `foreground-background` skill and its chapter. What a large house adds:
+In a house, a background instance is an occasional trick, and the desk lease (the `foreground-background` skill) keeps a second session from becoming a second foreground. In a large house it's how the day runs: one foreground holding the desk; several background instances working jobs, each in its own scratch folder with a task, a status file, a handoff and a done marker; the foreground integrating by copying. The mechanism is the `foreground-background` skill and its chapter. What a large house adds:
 
 - **Codenames**, so a background job has a name a person can say ("check on the one doing the migration") and a folder that can't collide with another's.
 - **A liveness signal that can be checked**, not merely believed. A bare "running" marker is an unfalsifiable claim; a marker that records which process made it, and when, can be verified against the machine before anyone archives a scratch folder out from under live work.
