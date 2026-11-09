@@ -11,7 +11,7 @@ Your agent handles the more technical machinery (like git version control) quiet
 
 ## How to Use This Book
 
-If your house is already built, start with **First Day in Desktop**. If you're still getting ready, work through the core path in order; most people are set up in under half an hour.
+If your house is already built, start with **First Day in Desktop**. If you're still getting ready, work through the core path in order. Setup itself takes about half an hour, longer if git has to install.
 
 ### Your first day
 

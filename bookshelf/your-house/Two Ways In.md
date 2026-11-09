@@ -16,7 +16,7 @@ The point of asking isn't the size of the pile. It's that a house with a lot of 
 
 **Mostly a computer.** The default. You'll work in the Claude desktop app's Code tab with a review surface beside it, and you can always continue the same session from your phone: turn on Remote Control in the desktop app, and find the session in the Claude app on your phone. Quitting the desktop app turns Remote Control off.
 
-**Mostly a phone.** Some people will reach their agent only through the Claude app on a phone. The agent still runs in the desktop app on a computer — yours, kept awake, or one that someone in your network runs for you — with Remote Control on, but the way it serves you has to change: short replies, nothing that says "open the file", one subject per session, and a warning about one button. Setup adds the `phone-path` skill and points at [The Phone Path](The%20Phone%20Path.md). Your first conversation with the agent should happen on the phone, not at the keyboard, so that it learns what you actually see.
+**Mostly a phone.** Some people will reach their agent only through the Claude app on a phone. The agent still runs in the desktop app on a computer — yours, kept awake, or one that someone in your network runs for you — with Remote Control on, but the way it serves you has to change: short replies, nothing that says "open the file", one subject per session, and a warning about one button. Setup adds the `phone-path` and `send-for-review` skills and points at [The Phone Path](The%20Phone%20Path.md). Your first conversation with the agent should happen on the phone, not at the keyboard, so that it learns what you actually see.
 
 ## Changing your mind
 

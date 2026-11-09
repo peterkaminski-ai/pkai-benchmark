@@ -58,7 +58,7 @@ A different thing from a background instance. A sub-agent has scope and lives in
 
 ### Other things Claude Code calls "agents"
 
-The word has more than one use in Claude Code itself. In this kit, an agent is an agent home with a `CLAUDE.md` that you start sessions in. These are different things:
+The word has more than one use in Claude Code itself. In this kit, an agent is an agent home with a `CLAUDE.md` that you start sessions in. These are different things (the commands are for the terminal; you won't type them):
 
 - **`.claude/agents/<name>.md`** (and `--agents`, which defines them inline) — agent files: a name, a description, optionally a model and tools, and a body that becomes that agent's system prompt. This is the sub-agent mechanism above, not a way to define or launch your agent.
 - **`claude --agent <name>`** and the `agent` setting — start a whole session as one of those agent files. Your agent doesn't need either; you start it by starting a session in its environment.
