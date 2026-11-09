@@ -8,7 +8,7 @@ Earlier versions asked a third question first, *exploring or working?*, and only
 
 **Not much** — you're starting fresh, or with a few notes. Your agent gets `save-a-memory`, because memory is what makes it yours, and it will build the rest as you go.
 
-**A lot** — years of email, notes, transcripts, documents, and you'd like your agent to help move them into place. Setup adds the rest of the information suite: `find-it-again`, because a house with history needs to be searchable in a known order, and `review-and-prune`, because memory that grows fast needs tending. Where the history goes is a conversation for after setup: usually a folder in the HQ that your agent reads and indexes on its own time.
+**A lot** — years of email, notes, transcripts, documents, and you'd like your agent to help move them into place. Setup adds the rest of the information suite: `find-it-again`, because a house with history needs to be searchable in a known order; `review-and-prune`, because memory that grows fast needs tending; and `import-chatgpt-history` and `fair-copy-a-transcript`, for bringing old conversations and meeting transcripts into place. Where the history goes is a conversation for after setup: usually a folder in the HQ that your agent reads and indexes on its own time.
 
 The point of asking isn't the size of the pile. It's that a house with a lot of history has different first jobs — finding, filing, deciding what to keep — and the agent should start with the tools for them.
 
