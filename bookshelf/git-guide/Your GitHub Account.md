@@ -1,6 +1,6 @@
 # Your GitHub Account
 
-GitHub is where the shared version of your project lives. You need a free account to access it.
+GitHub is where a shared version of a project can live. Your house doesn't need it: a house starts with no remote, and its history stays on your computer. If you want an off-machine copy, or to collaborate on a project, a free account is all it takes.
 
 ## Creating your account
 

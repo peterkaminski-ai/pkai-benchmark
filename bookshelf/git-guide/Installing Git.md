@@ -1,75 +1,43 @@
 # Installing Git
 
-Git needs to be installed on your computer before Claude Code can use it. The process is different on Mac and Windows, but both are straightforward.
+You don't install git yourself. Your agent does it, and it never holds anything up: setup builds your house without git, starts git's install if your computer doesn't have it yet, and carries on. When git arrives, your agent turns on version history in both folders of your house by itself. This page says what happens, and what your part is.
 
-## Mac
+## What your agent does
 
-On a Mac, Git comes bundled with Apple's developer tools. You install them once and you're done.
+1. **It checks.** It asks your computer whether git is there (`git --version`, and on a Mac `xcode-select -p`).
+2. **If git is missing, it starts the install** and carries on with whatever you were doing.
+3. **It writes itself a note** in its memory: "git: installing."
+4. **Each session, it checks again.** When git has arrived, it sets up version history in your agent home and your HQ (`git init`, the kit's `.gitignore`, a first commit in each), updates its note, and tells you in one sentence.
 
-### Step 1: Open Terminal
+If git was already on your computer, steps 2 and 3 never happen.
 
-Press **Cmd+Space** to open Spotlight search. Type **Terminal** and hit Enter. A window with a text prompt will appear -- this is your terminal.
+## Your part, on a Mac
 
-### Step 2: Install Xcode Command Line Tools
+On a Mac, git comes with Apple's developer tools. Your agent starts their install (`xcode-select --install`), and Apple shows a dialog asking whether to install them.
 
-In the Terminal window, type (or copy-paste) the following and hit Enter:
+- Click **Install**, then **Agree** to the license.
+- The dialog sometimes appears *behind* other windows. If nothing seems to happen, look behind your open windows, or use Cmd+Tab to look for an "Install" window.
+- The time estimate is wildly inaccurate at first — it may say 16 hours. It usually takes minutes; on a slow connection it can take an hour or more. The progress bar may restart partway through. That's normal.
+- You can keep working with your agent the whole time.
 
-```
-xcode-select --install
-```
+If the dialog says the tools are already installed, git is already there; tell your agent.
 
-A dialogue box will appear asking you to install the tools. This dialogue sometimes appears *behind* other windows, so if nothing seems to happen, check behind your open windows or look at your other displays.
+<!-- VERIFY(cold-start): whether xcode-select --install can be started from a Code-tab session -->
 
-Click **Install**, then **Agree** to the license agreement.
+## Your part, on Windows
 
-The download will start. The time estimate will be wildly inaccurate at first -- it may say 16 hours, but it typically takes 10-15 minutes. About two-thirds of the way through, the progress bar may restart. This is normal.
+On Windows, your agent installs Git for Windows with Windows' own package manager (`winget install --id Git.Git -e`). Windows may ask you to allow the install; read the prompt, and say yes if it's Git for Windows.
 
-If you see a message saying the tools are already installed, you can skip to the verification step.
+Git for Windows brings Git Bash with it. You won't use it yourself, but your house's hooks run under it, so leave it installed.
 
-### Step 3: Verify
+<!-- VERIFY(cold-start): whether winget is present on a fresh Windows 11, and whether its install asks for approval -->
 
-Once the install finishes, type this in Terminal and hit Enter:
+## If something goes wrong
 
-```
-git --version
-```
-
-You should see something like `git version 2.39.5`. The exact number doesn't matter -- if you see a version number, Git is installed.
-
-## Windows
-
-On Windows, Git isn't included with the operating system. You install it separately.
-
-### Step 1: Download Git for Windows
-
-Go to [https://git-scm.com/](https://git-scm.com/) and download the installer.
-
-### Step 2: Run the installer
-
-Run the downloaded file and accept the default options all the way through. The defaults are fine. The installer also bundles Git Bash along the way, but you won't need it for this guide -- Claude Code runs in **PowerShell inside Windows Terminal**.
-
-### Step 3: Verify
-
-Open **Windows Terminal**, on a **PowerShell** tab, and type:
-
-```
-git --version
-```
-
-You should see a version number. If Git isn't found, the installer didn't work -- try downloading and running it again.
-
-**Important:** On Windows, run Claude Code from **PowerShell inside Windows Terminal**, not Git Bash or Command Prompt.
-
-## Troubleshooting
-
-**Mac: "xcode-select: error: command line tools are already installed"** -- Good news, you're already done. Proceed to the verification step.
-
-**Mac: The dialogue box disappeared.** It's probably behind another window. Use Cmd+Tab to look for a "Software Update" or "Install" window.
-
-**Windows: `git` is not recognized as an internal or external command.** Git for Windows isn't installed, or you need to open a new PowerShell tab so it picks up the updated PATH. Install it from [https://git-scm.com/](https://git-scm.com/) if you haven't already.
-
-**Claude Code says it can't find Git.** On Mac, make sure the Xcode Command Line Tools finished installing. On Windows, make sure Git for Windows installed successfully and that you're running Claude Code from PowerShell in Windows Terminal.
+- **The Mac dialog disappeared before it finished.** Ask your agent to start it again.
+- **Your agent says git still isn't there after a long while.** Ask it to check your setup (the `check-my-setup` skill, if your house has it, or just "is git installed yet?"). It will tell you the smallest next step.
+- **Git asks "who are you" at the first commit.** Git needs a name and an email for your history. Your agent asks you for the name you'd like on it and an email you use, and sets them.
 
 ## Next
 
-[Your GitHub Account](Your%20GitHub%20Account.md) -- signing up and getting access.
+[Your GitHub Account](Your%20GitHub%20Account.md) — optional: an account on GitHub, if you ever want a copy of your work off your computer or to collaborate. A house doesn't need one.

@@ -75,7 +75,7 @@ Git error messages are notoriously confusing, even for experienced developers. C
 
 ## The golden rule
 
-**When in doubt, don't panic, and ask for help.** Whether that's Claude Code, a teammate, or Pete -- Git problems are almost always fixable, and having a second set of eyes makes them easier.
+**When in doubt, don't panic, and ask for help.** Whether that's your agent, a teammate, or a friend who knows Git -- Git problems are almost always fixable, and having a second set of eyes makes them easier.
 
 The worst thing you can do is start clicking or typing randomly to try to fix it. Describe what happened and let Claude Code (or a person) guide you to the solution.
 

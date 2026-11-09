@@ -6,7 +6,7 @@ Quick-reference definitions for the terms you'll encounter when working with Git
 
 **Branch** -- A parallel version of your project. Like making a copy to experiment on without affecting the main version. See [Branches](Branches.md).
 
-**Clone** -- Downloading a copy of a GitHub repository to your computer for the first time. After cloning, you can pull and push to stay in sync.
+**Clone** -- Downloading a copy of a repository from a remote (GitHub, say) to your computer for the first time. After cloning, you can pull and push to stay in sync. A house's own two folders are never cloned; they start on your computer.
 
 **Commit** -- A saved snapshot of your project at a point in time. Like a save point in a video game. Each commit has a message describing what changed. See [What Is a Commit](What%20Is%20a%20Commit.md).
 
@@ -30,7 +30,9 @@ Quick-reference definitions for the terms you'll encounter when working with Git
 
 **Pull Request (PR)** -- A request to merge changes from one branch into another, with an opportunity for review and discussion. See [Working With Others](Working%20With%20Others.md).
 
-**Push** -- Uploading your committed changes from your computer to GitHub. This is how your work becomes visible to others.
+**Push** -- Uploading your committed changes from your computer to a remote, such as GitHub. This is how your work becomes visible to others, if you've added a remote; a house starts with none, so there's nothing to push to. Your agent asks before it pushes.
+
+**Remote** -- A copy of a repository on another machine, usually a service like GitHub, that you push to and pull from. A house built from the kit starts without one: its history lives only on your computer until you choose to add a remote. See [Git vs GitHub](Git%20vs%20GitHub.md).
 
 **Repo (Repository)** -- A project tracked by Git. It's a folder of files plus the complete history of every change. "Repo" is the short form everyone uses.
 

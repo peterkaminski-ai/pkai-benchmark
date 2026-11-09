@@ -1,5 +1,8 @@
 # Choosing Your Terminal
 
+> [!note]
+> **This page is about using a terminal; the v4 kit doesn't teach it.** For the desktop app, see [First Day in Desktop](First%20Day%20in%20Desktop.md). The page is kept for people who already love the terminal and want to use Claude Code there with their house. It describes the terminal as it was taught in v3, and the kit's v4 setup, persona and skills don't refer to it.
+
 The terminal is where you'll actually talk to Claude Code — it's the window where you type and where your agent replies. You'll spend a lot of time looking at it, so it's worth two minutes now to make sure it's set up well.
 
 The built-in terminal on your computer works, but on both Mac and Windows there's a better option, and on Windows there's a real gotcha to fix before you go further. Follow the section for your platform.
@@ -23,7 +26,7 @@ Open iTerm2 the way you'd open any app — Spotlight (Cmd+Space), type **iTerm**
 
 ### Step 3: Run terminal setup in Claude Code
 
-Once Claude Code is installed and running (see [Installing Claude Code](Installing%20Claude%20Code.md)), run this once inside it:
+Once Claude Code is installed in your terminal (the install command is at [code.claude.com](https://code.claude.com/)) and running, run this once inside it:
 
 ```
 /terminal-setup

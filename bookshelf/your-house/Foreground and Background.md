@@ -1,5 +1,8 @@
 # Foreground and Background
 
+> [!note]
+> **The v4 kit doesn't teach foreground and background.** Your house still has the desk and guests, and they work automatically: if you open a second session while one is going, it becomes a guest by itself and tells you so (see [First Day in Desktop](../getting-started/First%20Day%20in%20Desktop.md)). Delegating inside one session is fine too — your agent can hand pieces of a job to helpers it starts itself. A better way to work in parallel comes in V5. This page is kept as the fuller statement of the mechanism.
+
 The first thing a working house needs is a way to do two things at once. You're talking to your agent about one matter; a long job — a research sweep, a big rewrite, a migration of old notes — is grinding on in another session. Both are your agent. Neither may overwrite the other. That's the whole design problem, and the answer is a pair of roles.
 
 ## The two roles
@@ -19,7 +22,7 @@ Houses pick different pairs for the same distinction; use your house's words, an
 
 ## The desk, and guests
 
-Start a second session in your agent home while the first is still working — another terminal, or a conversation in the Claude app on your computer or phone — and you have two instances of the same agent. Without a rule, both would write the same memory and the same charter. So the house keeps a **desk**: the first session to start holds it, every turn renews it, and it's released when that session ends. A session that starts while another holds the desk becomes a **guest**, and tells you so in one plain sentence, with three choices:
+Start a second session in your agent's environment while the first is still working — another session in the desktop app's Code tab, or one started from your phone — and you have two instances of the same agent. Without a rule, both would write the same memory and the same charter. So the house keeps a **desk**: the first session to start holds it, every turn renews it, and it's released when that session ends. A session that starts while another holds the desk becomes a **guest**, and tells you so in one plain sentence, with three choices:
 
 - **keep going as a guest** — the default. It works normally, but it leaves its notes and a handoff in its own folder (`bg/guest-<time>/`) instead of changing memory, the charter or settings;
 - **switch to the other session**, and close this one;
@@ -43,7 +46,7 @@ The `DONE` marker matters more than it looks. A `handoff.md` invites more work �
 ## How it goes
 
 1. The foreground writes `task.md` — as an outcome, not a step list. The instance plans its own path.
-2. You (or the foreground) open a second terminal in the agent home and start the agent with one line: *you are a background instance; read `bg/<job>/task.md` and begin.* The `foreground-background` skill carries the instructions it follows.
+2. You start a second session in your agent's environment, in the desktop app, and open it with one line: *you are a background instance; read `bg/<job>/task.md` and begin.* The `foreground-background` skill carries the instructions it follows.
 3. You carry on in the foreground. Check `status.md` when you're curious; don't poll.
 4. When `DONE` appears, the foreground tells you — at the start of a session, or in one line during one, at most once an hour — and, when you say so, reads `handoff.md` and integrates: files copied to where they belong, memories saved properly, commits made under the foreground's own hand. Anything that needs your decision is asked.
 5. The job folder moves to `bg/archive/`.

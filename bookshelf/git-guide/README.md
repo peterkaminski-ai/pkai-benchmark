@@ -1,6 +1,8 @@
 # Git for Non-Developers
 
-A plain-language guide to Git and GitHub for people who have never used version control. Written for the PKAI Founders program.
+> **The v4 kit leaves this book out; your agent handles git for you. It's here for people who want to understand it.**
+
+A plain-language guide to Git and GitHub for people who have never used version control. First written for the PKAI Founders program.
 
 ## Who this is for
 
@@ -16,7 +18,7 @@ Start at the top and work down. Each page builds on the one before it, but they 
 |------|-------------------|
 | [What Is Version Control](What%20Is%20Version%20Control.md) | Why this exists and what problem it solves |
 | [Git vs GitHub](Git%20vs%20GitHub.md) | The difference between the tool and the platform |
-| [Installing Git](Installing%20Git.md) | Getting Git on your Mac or Windows machine |
+| [Installing Git](Installing%20Git.md) | How your agent gets Git onto your Mac or Windows machine, and your part |
 | [Your GitHub Account](Your%20GitHub%20Account.md) | Optional: creating an account, getting access, authentication |
 | [The Daily Cycle](The%20Daily%20Cycle.md) | Work, commit -- and pull and push once you add a remote |
 | [Talking to Git Through Claude Code](Talking%20to%20Git%20Through%20Claude%20Code.md) | A phrasebook for telling Claude Code what you want |

@@ -6,7 +6,7 @@ Every convention below is one a house wrote down because two agents needed to ag
 
 ## Several agents
 
-A large house has more than one agent, each with its own home, charter, memory and voice, all sharing one HQ. The shape scales without changing: a second agent is another folder in `My Agents`, launched by its own name. What has to be decided is what's shared and what isn't:
+A large house has more than one agent, each with its own home, charter, memory and voice, all sharing one HQ. The shape scales without changing: a second agent is another folder side by side with the first, `<Name> (agent)` at the top of the home folder, never nested inside another agent's home — the desktop app labels sessions by folder, and nested agents all look alike. Each agent has its own repo and its own environment in the desktop app, on its own home, with the HQ granted to it as well; the HQ stays a separate folder that no agent home contains. What has to be decided is what's shared and what isn't:
 
 - **Charters are never shared.** Each agent's `CLAUDE.md` is its own. A shared safety section is copied into each, not referenced from one place, so that each agent reads it every session without depending on another's file.
 - **Memory is never written across.** If one agent learns something the other should know, it writes it where the other will read it — its own store, a handoff, a note in the HQ — and the other decides what to keep. One agent writing into another's memory is the failure to design against; it's how a bad fact spreads without anyone deciding to keep it.

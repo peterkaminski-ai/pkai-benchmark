@@ -52,7 +52,7 @@ Small, frequent commits are better than one huge commit at the end of the day. E
 This is a common point of confusion:
 
 - **Commit** saves your work *on your computer*. It's local. Your teammates can't see it yet.
-- **Push** uploads your commits *to GitHub*. Now everyone can see them.
+- **Push** uploads your commits *to a remote, such as GitHub*, if you've added one. Now everyone who shares it can see them. A house starts with no remote, so until you add one, commits are the whole story.
 
 You can make several commits before pushing. That's perfectly normal -- you're building up a series of save points locally, and then sharing them all at once when you push.
 

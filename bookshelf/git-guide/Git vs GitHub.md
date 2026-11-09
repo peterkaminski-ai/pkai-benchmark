@@ -40,8 +40,8 @@ GitHub is like a shared bulletin board. When you're ready, you post a copy of yo
 
 ## Do I need both?
 
-No. Git is optional but recommended: it does the tracking on your computer, and your house uses it with no GitHub at all. GitHub is optional too -- it's for when you want an off-machine copy or to share a project with others. Either way, you'll interact with both through Claude Code -- you won't need to visit github.com or type Git commands directly.
+No. Git comes with every house — your agent installs it if your computer doesn't have it, and it does the tracking on your computer, with no GitHub at all. GitHub is optional too -- it's for when you want an off-machine copy or to share a project with others. Either way, you'll interact with both through Claude Code -- you won't need to visit github.com or type Git commands directly.
 
 ## Next
 
-[Installing Git](Installing%20Git.md) -- getting Git set up on your machine.
+[Installing Git](Installing%20Git.md) -- how Git gets onto your machine (your agent does it).
