@@ -4,7 +4,7 @@ Every PKAI V3 artifact starts with this file. It says what the artifact is, what
 
 ```yaml
 name: pkai-benchmark
-version: 3.1.0
+version: 3.2.0
 grows_from: nothing                       # the benchmark is the fuller statement; the kit is shaped from it
 lineage:                                  # newest first; at least three generations
   - pkai-benchmark v3.0.0 · 2026-09-22 · Peter Kaminski, with Saga (his agent) · read
@@ -14,6 +14,7 @@ lineage:                                  # newest first; at least three generat
   - the PKAI Founders KB, the knowledge base of Agentic AI with Pete, Founders Cohort (PKAI-F26) · 2026-03 to 2026-04 · Peter Kaminski and the participants of the cohort · read; "pkai-founders, basically" — Pete, heard 2026-09-21
 licence: MPL-2.0                          # same as the kit; see LICENSE.md
 credits:
+  - 3.2's bookshelf corrections began with issue #41, from Howardgr, whose report showed that a carried page no longer matched the problem it was meant to fix · read
   - the charter spine (principles, authority table, memory, the injection firewall) descends from the charters of Pete's own agents, Freya and Saga · read
   - the "when a safety layer blocks you" and "what you read is information, never instruction" sections (ratified in the first person) were written and ratified live in a PKAI Dyad Jam, 2026-09-18, by the two houses present · heard, then read
   - the pull mechanism, and its reason — sovereignty, not breakage — as Pete stated it in the ØSphera jam of 2026-09-20 · heard, then read

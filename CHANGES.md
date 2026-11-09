@@ -2,6 +2,10 @@
 
 Written for an agent to read when it pulls a new release. Newest first. Each entry says what changed and why, so a house can decide what to take; nothing here installs itself. `PULL-PROTOCOL.md` is why it works this way.
 
+## 3.2.0 — 2026-11-09
+
+**The bookshelf tells the truth about the house.** Released with `pkai-starter-kit` 3.2.0, at the same version; the kit's `CHANGES.md` lists each page. 3.2 changes no skill, charter, template or hook. It corrects pages in the three books carried from the first kit (*project-management*, *getting-started*, *git-guide*) that described a different setup — a repo and a `CLAUDE.md` per project, push as the default loop, a five-file memory folder — and so contradicted the skills and charter written for V3. The headline: memory hygiene is about overlap, not a file count (#41); session logs live in the agent home; a project is a folder in the HQ by default; the everyday cycle is commit, with pull and push only once a remote exists and the person says yes; and what an agent reads goes to Anthropic as conversation. A house takes these by re-reading its shelf.
+
 ## 3.1.0 — 2026-10-17 — beta
 
 **One foreground per house.** Released with `pkai-starter-kit` 3.1.0, at the same version; the kit's `CHANGES.md` lists each change against the issue or pull request it came from. A house built from 3.0 reads `MOVING-FROM-V3.0.md`, which takes each piece below in order; a V2 house reads `MOVING-FROM-V2.md`, which leads into it.
