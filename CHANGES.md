@@ -2,6 +2,10 @@
 
 Written for an agent to read when it pulls a new release. Newest first. Each entry says what changed and why, so a house can decide what to take; nothing here installs itself. `PULL-PROTOCOL.md` is why it works this way.
 
+## 4.0.0 — preview
+
+**The desktop app, and no terminal.** Released with `pkai-starter-kit` 4.0.0, a preview for brand-new people; the kit's `CHANGES.md` lists each change. The benchmark keeps its full shelf. A house takes these by pull, and a 3.x house needs none of them to start using the desktop app. The headline: the bookshelf, skills, charter and template describe a house used in the Code tab of the Claude desktop app; git is installed by the agent and never blocks; agents sit side by side as `<Name> (agent)` folders with the HQ beside them; one desktop environment per agent; *First Day in Desktop*; the session start offers one next step; Manual mode as a way forward for an auto-mode block (held for Pete's ruling before release). Unconfirmed desktop details are marked `VERIFY(cold-start)`.
+
 ## 3.2.0 — 2026-11-09
 
 **The bookshelf tells the truth about the house.** Released with `pkai-starter-kit` 3.2.0, at the same version; the kit's `CHANGES.md` lists each page. 3.2 changes no skill, charter, template or hook. It corrects pages in the three books carried from the first kit (*project-management*, *getting-started*, *git-guide*) that described a different setup — a repo and a `CLAUDE.md` per project, push as the default loop, a five-file memory folder — and so contradicted the skills and charter written for V3. The headline: memory hygiene is about overlap, not a file count (#41); session logs live in the agent home; a project is a folder in the HQ by default; the everyday cycle is commit, with pull and push only once a remote exists and the person says yes; and what an agent reads goes to Anthropic as conversation. A house takes these by re-reading its shelf.
