@@ -4,7 +4,7 @@ Every PKAI V3 artifact starts with this file. It says what the artifact is, what
 
 ```yaml
 name: pkai-benchmark
-version: 3.2.0
+version: 3.2.1
 grows_from: nothing                       # the benchmark is the fuller statement; the kit is shaped from it
 lineage:                                  # newest first; at least three generations
   - pkai-benchmark v3.0.0 · 2026-09-22 · Peter Kaminski, with Saga (his agent) · read
