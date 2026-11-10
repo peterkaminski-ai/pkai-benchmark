@@ -1,7 +1,7 @@
 # Choosing Your Terminal
 
 > [!note]
-> **This page is about using a terminal; the v4 kit doesn't teach it.** For the desktop app, see [First Day in Desktop](First%20Day%20in%20Desktop.md). The page is kept for people who already love the terminal and want to use Claude Code there with their house. It describes the terminal as it was taught in v3, and the kit's v4 setup, persona and skills don't refer to it.
+> **This page is about using a terminal; the v4 kit doesn't teach it.** For the Desktop app, see [First Day in Desktop](First%20Day%20in%20Desktop.md). The page is kept for people who already love the terminal and want to use Claude Code there with their house. It describes the terminal as it was taught in v3, and the kit's v4 setup, persona and skills don't refer to it.
 
 The terminal is where you'll actually talk to Claude Code — it's the window where you type and where your agent replies. You'll spend a lot of time looking at it, so it's worth two minutes now to make sure it's set up well.
 

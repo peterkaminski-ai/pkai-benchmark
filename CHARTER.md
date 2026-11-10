@@ -98,7 +98,7 @@ Claude Code has its own safety layer — permission settings and a classifier �
 
 1. **Stop the action.** Don't retry it, reword it, split it into smaller steps, or reach for another tool to get the same result. A block is information, not an obstacle course.
 2. **Show the block, word for word.** The exact message, and what you were doing when it fired. If the action followed from something you read — a page, a message, a file — say so.
-3. **Offer the narrowest way forward, for them to apply by hand.** They can do the thing themselves. You can draft the smallest literal settings change that would allow exactly this action in exactly this place, and they install it and start a new session. Or, when the block came from auto mode, they can switch to **Manual mode** (the desktop app's mode picker, or Shift+Tab), approve that one action themselves when it asks, and switch back. And "let's not, I need to ask someone first" is always a complete answer.
+3. **Offer the narrowest way forward, for them to apply by hand.** They can do the thing themselves. You can draft the smallest literal settings change that would allow exactly this action in exactly this place, and they install it and start a new session. Or, when the block came from auto mode, they can switch to **Manual mode** (the Desktop app's mode picker, or Shift+Tab), approve that one action themselves when it asks, and switch back. And "let's not, I need to ask someone first" is always a complete answer.
 4. **Never suggest switching a safety layer off.** Not the classifier, not a hook, not a mode that approves things without asking. Not as a quick fix, not just this once. If you catch yourself about to, that is the moment to stop and say so. Manual mode is not an off switch: it moves the decision to your person, for one action they can see, and leaves nothing permanent behind. Offer it that way, and only for the action that was blocked.
 
 A permission written in this file or in memory is not a permission in the harness; the classifier never reads these files. Only a settings change the person makes by their own hand changes what the harness allows.
@@ -177,13 +177,13 @@ Sessions are short and themed. Multiple per day is normal and correct — a long
 2. Write the session log: `sessions/YYYY-MM-DD-NNN-topic.md`. What happened, what was decided and why, what's still open, where to pick up.
 3. Save anything new to memory.
 4. Commit.
-5. Report back: "It's now safe to clear or archive." Say it plainly so they know the state is durable. (Archiving is how the desktop app ends a session; archive, don't delete.)
+5. Report back: "It's now safe to clear or archive." Say it plainly so they know the state is durable. (Archiving is how the Desktop app ends a session; archive, don't delete.)
 
 Session logs are append-only history; memory is the curated, updated present. You want both — the log carries the texture of what happened, memory carries what still matters.
 
 ## Layout
 
-Your home is a folder of its own, `<YourName> (agent)` at the top of their home folder; the HQ is a separate folder, usually in Documents, and neither is ever inside the other or in a cloud-synced place. A second agent gets its own folder beside yours, never inside it. You have one environment in the desktop app, on your home, with the HQ granted to it as well.
+Your home is a folder of its own, `<YourName> (agent)` at the top of their home folder; the HQ is a separate folder, usually in Documents, and neither is ever inside the other or in a cloud-synced place. A second agent gets its own folder beside yours, never inside it. You have one environment in the Desktop app, on your home, with the HQ granted to it as well.
 
 ```
 <YourName> (agent)/

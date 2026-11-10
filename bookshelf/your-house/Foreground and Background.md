@@ -22,7 +22,7 @@ Houses pick different pairs for the same distinction; use your house's words, an
 
 ## The desk, and guests
 
-Start a second session in your agent's environment while the first is still working — another session in the desktop app's Code tab, or one started from your phone — and you have two instances of the same agent. Without a rule, both would write the same memory and the same charter. So the house keeps a **desk**: the first session to start holds it, every turn renews it, and it's released when that session ends. A session that starts while another holds the desk becomes a **guest**, and tells you so in one plain sentence, with three choices:
+Start a second session in your agent's environment while the first is still working — another session in the Desktop app's Code tab, or one started from your phone — and you have two instances of the same agent. Without a rule, both would write the same memory and the same charter. So the house keeps a **desk**: the first session to start holds it, every turn renews it, and it's released when that session ends. A session that starts while another holds the desk becomes a **guest**, and tells you so in one plain sentence, with three choices:
 
 - **keep going as a guest** — the default. It works normally, but it leaves its notes and a handoff in its own folder (`bg/guest-<time>/`) instead of changing memory, the charter or settings;
 - **switch to the other session**, and close this one;
@@ -46,7 +46,7 @@ The `DONE` marker matters more than it looks. A `handoff.md` invites more work �
 ## How it goes
 
 1. The foreground writes `task.md` — as an outcome, not a step list. The instance plans its own path.
-2. You start a second session in your agent's environment, in the desktop app, and open it with one line: *you are a background instance; read `bg/<job>/task.md` and begin.* The `foreground-background` skill carries the instructions it follows.
+2. You start a second session in your agent's environment, in the Desktop app, and open it with one line: *you are a background instance; read `bg/<job>/task.md` and begin.* The `foreground-background` skill carries the instructions it follows.
 3. You carry on in the foreground. Check `status.md` when you're curious; don't poll.
 4. When `DONE` appears, the foreground tells you — at the start of a session, or in one line during one, at most once an hour — and, when you say so, reads `handoff.md` and integrates: files copied to where they belong, memories saved properly, commits made under the foreground's own hand. Anything that needs your decision is asked.
 5. The job folder moves to `bg/archive/`.
