@@ -1,6 +1,6 @@
 # The house, grown large
 
-A house is an agent home and a headquarters. A large house is a house that has grown: several agents, some in the foreground and some in the background; a body of knowledge the agents keep and find their way around; and enough going on that the house needs its own conventions to stay coherent. This is the fuller statement of what those conventions are, as one large house has worked them out over a summer. The starter kit's shelf carries the short version ([A Larger House](bookshelf/your-house/A%20Larger%20House.md)); this file is the rest.
+A house is an agent home and a headquarters. A large house is a house that has grown: several agents, some in the foreground and some in the background; a body of knowledge the agents keep and find their way around; and enough going on that the house needs its own conventions to stay coherent. This is the fuller statement of what those conventions are, as one large house has worked them out over a summer. The starter kit's shelf carries the short version ([A Larger House](library/pkai/your-house/A%20Larger%20House.md)); this file is the rest.
 
 Every convention below is one a house wrote down because two agents needed to agree on it. That's the test for whether a house needs a convention at all.
 

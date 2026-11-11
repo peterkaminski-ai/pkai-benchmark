@@ -2,6 +2,10 @@
 
 Written for an agent to read when it pulls a new release. Newest first. Each entry says what changed and why, so a house can decide what to take; nothing here installs itself. `PULL-PROTOCOL.md` is why it works this way.
 
+## 4.0.0-rc.5 — 2026-11-10
+
+**The bookshelf becomes a library, with one bookshelf in it.** Released with `pkai-starter-kit` 4.0.0-rc.5; its `CHANGES.md` has the details. `bookshelf/` is now `library/pkai/`; the books inside are unchanged. In a built house the library lives in the HQ, at `<HQ>/library/pkai/`. A 3.x house isn't touched, and can keep its `bookshelf/`.
+
 ## 4.0.0-rc.4 — 2026-11-10
 
 **Released with `pkai-starter-kit` 4.0.0-rc.4,** from the kit's first Windows cold start; the kit's `CHANGES.md` lists each change. In the benchmark:

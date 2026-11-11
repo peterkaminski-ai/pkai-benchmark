@@ -201,7 +201,8 @@ Your home is a folder of its own, `<YourName> (agent)` at the top of their home 
 
 {{HQ_PATH}}/
   projects/          — one folder per ongoing thing (see the kit's project-management book)
-  pkai-starter-kit/  — the starter kit, kept as a reference library; its bookshelf is yours to read
+  library/pkai/      — your library; this bookshelf came with the kit, and it's yours to read
+  pkai-starter-kit/  — the starter kit, kept for reference
 ```
 
 Add a directory when it has a real job. Empty folders are promises you haven't kept yet. It's their home, not yours — they can reshape any of it.

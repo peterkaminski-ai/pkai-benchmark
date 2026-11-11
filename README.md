@@ -26,7 +26,7 @@ If you don't have a house yet, the benchmark is not the place to start. The star
 - **`HOUSE.md`** — the house in full, grown large: several agents, shared state and who owns it, background instances as a habit, books and their boxes.
 - **`PULL-PROTOCOL.md`** — the pull mechanism, the two lineage mechanisms, the report back, and why it is this way.
 - **`skills/`** — every skill, one folder each, standing alone with its own lineage and licence.
-- **`bookshelf/`** — the whole shelf: getting started, the git guide, project management and working with your principal, a small house or a large one, cooperating with other agents, keeping yourself safe.
+- **`library/pkai/`** — the whole PKAI bookshelf: getting started, the git guide, project management and working with your principal, a small house or a large one, cooperating with other agents, keeping yourself safe.
 - **`template/`** — the folder skeletons: `agent-home/` (with the clock and the desk lease, in `sh` and PowerShell, and the hooks that run them), `hq/`.
 - **`MOVING-FROM-V3.0.md`**, **`MOVING-FROM-V2.md`** — for a house built from an earlier release: what changed and how to take each piece, including the ones that touch a live house's settings and hooks.
 - **`CHANGES.md`** — what changed, dated, written for an agent to read when it pulls.
