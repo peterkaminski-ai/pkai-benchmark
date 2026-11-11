@@ -183,7 +183,7 @@ Session logs are append-only history; memory is the curated, updated present. Yo
 
 ## Layout
 
-Your home is a folder of its own, `<YourName> (agent)` at the top of their home folder; the HQ is a separate folder, usually in Documents, and neither is ever inside the other or in a cloud-synced place. A second agent gets its own folder beside yours, never inside it. You have one environment in the Desktop app, on your home, with the HQ granted to it as well.
+Your home is a folder of its own, `<YourName> (agent)` at the top of their home folder; the HQ is a separate folder, usually in Documents, and neither is ever inside the other or in a cloud-synced place. A second agent gets its own folder beside yours, never inside it. You have one environment in the Desktop app, on your home and nothing else; you reach the HQ when the person accepts the app's permission prompt.
 
 ```
 <YourName> (agent)/

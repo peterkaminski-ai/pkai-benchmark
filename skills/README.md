@@ -17,7 +17,7 @@ Skills are seeds, not the lesson. Each one is the printed-book version of someth
 | `review-and-prune` | Reviews memory on a rhythm: merge, delete, and propose what has become a rule for the charter. | keeping-yourself-safe · Where Instructions Take Hold |
 | `wrap-up-this-session` | Closes a session so nothing is lost at `/clear`: open threads, the log, memory, commit, "it's now safe to clear or archive." | project-management · Session Logs, Session Rhythm |
 | `start-a-project` | The wish, the questions, the container (folder or repo), README and status file, a first plan for review. | project-management · Writing the Wish, Project as Repo, Starting a New Project |
-| `check-my-setup` | Desktop app current, the Code tab, the agent's environment on its home, the HQ granted, Remote Control, the desk, git present and named (and finished, if it was still installing), no cloud-sync fight, a review surface, backups, secrets. Smallest fix each. | getting-started; keeping-yourself-safe · Backups and Secrets |
+| `check-my-setup` | Desktop app current, the Code tab, the agent's environment on its home alone, the HQ reachable, Remote Control, the desk, git present and named (and finished, if it was still installing), no cloud-sync fight, a review surface, backups, secrets. Smallest fix each. | getting-started; keeping-yourself-safe · Backups and Secrets |
 | `send-for-review` | Puts a document where the person can read it — their review app, or a pad on a phone — commits first, reads the diff back. | getting-started · Viewing Your Files |
 | `widen-a-boundary` | Records a grant the person made in conversation as a dated, quoted memory; drafts the authority-table change for them to install. | keeping-yourself-safe |
 | `test-a-charter-edit` | The rename test, "names a check that can come back no," default/target/why; then the sitting, with the person installing. | your-house · Testing a Charter Edit |
@@ -38,11 +38,11 @@ Skills are seeds, not the lesson. Each one is the printed-book version of someth
 
 ## Which are installed at setup
 
-The two setup questions pick what goes into a new house; everything else stays on the shelf, one copied folder away.
+Setup installs these in every new house, without asking; everything else stays on the shelf, one copied folder away.
 
 - **Every house:** `pull-from-benchmark`, `save-a-memory`, `wrap-up-this-session`, `start-a-project`, `venue-card`, `widen-a-boundary`, `foreground-background`, `heads-up`. Every house has a foreground and can have background instances and guests (the desk lease), so the last two come with it; the charter's authority rules rely on `widen-a-boundary`.
-- **A lot of history** (question 1): + `find-it-again`, `review-and-prune`, `import-chatgpt-history`, `fair-copy-a-transcript`.
-- **Mostly a phone** (question 2): + `phone-path`, `send-for-review`.
+- **The history suite:** `find-it-again`, `review-and-prune`, `import-chatgpt-history`, `fair-copy-a-transcript`.
+- **The phone path:** `phone-path`, `send-for-review`.
 - **On the shelf, take when ready:** `before-your-first-room`, `test-a-charter-edit`, `make-a-skill`, `choose-a-name`, `choose-a-version-scheme`, `assign-an-id`, `check-my-setup`, `art-director`.
 
 A house adds a skill by copying its folder in and starting a new session, and drops one by deleting the folder.

@@ -2,6 +2,14 @@
 
 Written for an agent to read when it pulls a new release. Newest first. Each entry says what changed and why, so a house can decide what to take; nothing here installs itself. `PULL-PROTOCOL.md` is why it works this way.
 
+## 4.0.0-rc.4 — 2026-11-10
+
+**Released with `pkai-starter-kit` 4.0.0-rc.4,** from the kit's first Windows cold start; the kit's `CHANGES.md` lists each change. In the benchmark:
+
+- **An agent's environment holds only the agent's folder;** the agent reaches the HQ through the app's permission prompt. *First Day in Desktop*, *Your First House*, *Troubleshooting*, *Viewing Your Files* and `check-my-setup` say so.
+- **The clock's zone label:** under Git Bash on Windows, `scripts/now` and `scripts/now-hook` show the offset (`UTC-0800`) when the zone name is wrongly "UTC".
+- **`skills/README.md`:** every new house gets the history and phone skills.
+
 ## 4.0.0-rc.3 — 2026-11-10
 
 **Released with `pkai-starter-kit` 4.0.0-rc.3,** the kit's third release candidate, built from its first cold-start run; the kit's `CHANGES.md` lists each change. In the benchmark:
