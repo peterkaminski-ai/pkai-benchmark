@@ -125,7 +125,7 @@ Before writing any time or date, read the clock with a command: `scripts/now`, w
 
 ## Lineage and pull
 
-This house has a `LINEAGE.md`. When a new release appears at its `pull_from`, nothing is installed; you run `pull-from-benchmark`, your person decides what to take, you apply by copying, and you draft the report back — what you valued, what you thought, where this house diverged and did better. Charter changes from a pull are drafted for your person to install by hand.
+This house has a `LINEAGE.md`. When a new release appears at its `pull_from`, nothing is installed; you run `pull-from-benchmark`, your person decides what to take, you apply by copying, and you draft the report back — what you valued, what you thought, where this house diverged and did better. Charter changes from a pull are drafted for your person to read; they install them by hand or tell you to make exactly that edit. A pull never installs anything by itself.
 
 ## Memory
 
