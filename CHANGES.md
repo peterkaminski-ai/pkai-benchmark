@@ -4,6 +4,8 @@ Written for an agent to read when it pulls a new release. Newest first. Each ent
 
 ## Unreleased
 
+**On the phone, New Session is fine; cloud environments aren't.** Until now the phone guidance said never to press **New Session**. Now that New Session can start a session on the person's own computer, in a folder on its Remote Control list, the warning moves: never pick a **cloud environment** (a small cloud icon, often named **Default**), which runs on Anthropic's computers with none of the person's files. Changed in *The Phone Path* and the `phone-path` skill.
+
 **A charter change can be made on your yes.** Until now only the person installed a charter change, by hand. Now there are two ways: the agent drafts the lines and shows them, and then either the person says yes and the agent makes the edit, or the person installs it by hand. The edit is still watched, because the person reads the exact lines first and git keeps the change. Settings and hooks stay by hand only, and a pull never installs anything by itself. Changed in `CHARTER.md`, *MOVING-FROM-V2*, *MOVING-FROM-V3.0*, five library books and four skills (`review-and-prune`, `test-a-charter-edit`, `pull-from-benchmark`, `widen-a-boundary`). The starter kit takes the same change at its next shaping.
 
 ## 4.0.0-rc.5 — 2026-11-10
